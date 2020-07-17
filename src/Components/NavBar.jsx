@@ -4,8 +4,14 @@ import { Link } from '@reach/router';
 const NavBar = () => {
   return (
     <nav>
-      <Link to="about_me">About Me</Link>
-      <Link to="projects"> Projects</Link>
+      <Link className="navlinks" to="about_me">
+        About Me
+      </Link>
+
+      <Link className="navlinks" to="projects">
+        {' '}
+        Projects
+      </Link>
     </nav>
   );
 };

@@ -3,10 +3,14 @@ import { Router } from '@reach/router';
 import AboutMe from './Components/AboutMe';
 import NavBar from './Components/NavBar';
 import Projects from './Components/Projects';
+import './App.css';
+import StyledHeader from './Components/StyledHeader';
+
 function App() {
   return (
     <div className="App">
-      <p>Philippa's Portfolio Website</p>
+      <StyledHeader>PCB Portfolio</StyledHeader>
+
       <NavBar />
       <Router>
         <AboutMe path="about_me" />
