@@ -12,6 +12,10 @@ const NavBar = () => {
         {' '}
         Projects
       </Link>
+
+      <Link className="navlinks" to="/">
+        Home
+      </Link>
     </nav>
   );
 };
