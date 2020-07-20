@@ -1,6 +1,5 @@
 import React from 'react';
 import { Router } from '@reach/router';
-import AboutMe from './Components/AboutMe';
 import NavBar from './Components/NavBar';
 import Projects from './Components/Projects';
 import Home from './Components/Home';
@@ -15,7 +14,6 @@ function App() {
       <NavBar />
       <Router primary={false}>
         <Home path="/" />
-        <AboutMe path="about_me" />
         <Projects path="projects" />
       </Router>
     </div>
