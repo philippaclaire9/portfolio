@@ -10,62 +10,51 @@ const Projects = () => {
         <header>
           <h2>Projects</h2>
         </header>
-
         <h3>Northcoders Projects</h3>
-
         <h4>NC News</h4>
-
         <p>
-          This was an indepenent full stack project building a Reddit-style
+          This was an independent full stack project building a Reddit-style
           webpage with complete back end. Users are able to access articles,
           write comments when logged in and vote on articles and comments. The
           RESTful API was built using Express, Node.js and PostgreSQL. The front
           end was built with React and CSS along with Styled Components. The
           back end was hosted with Heroku and the front end was deployed with
           Netlify. Testing was completed using Supertest, Mocha, Chai and Jest.{' '}
-        </p>
-        <ul>
+        </p>{' '}
+        <a
+          href="https://github.com/philippaclaire9/backend-review"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Back-end github repository
+        </a>
+        <br />
+        <a
+          href="https://nc-news-review.herokuapp.com/api"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {' '}
-          <li>
-            <a
-              href="https://github.com/philippaclaire9/backend-review"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Back-end github repository
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://nc-news-review.herokuapp.com/api"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {' '}
-              Back-end
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/philippaclaire9/fe-nc-news-review"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {' '}
-              Front-end github repository
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://fe-nc-news-review.netlify.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {' '}
-              Front-end
-            </a>
-          </li>
-        </ul>
+          Back-end
+        </a>
+        <br />
+        <a
+          href="https://github.com/philippaclaire9/fe-nc-news-review"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {' '}
+          Front-end github repository
+        </a>
+        <br />
+        <a
+          href="https://fe-nc-news-review.netlify.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {' '}
+          Front-end
+        </a>
         <h4>MovieMapStar</h4>
         <p>
           This was a group project with 3 other Northcoders students. The
@@ -87,14 +76,23 @@ const Projects = () => {
           {' '}
           Project github repository
         </a>
-        <StyledVideo>
+        {/* <StyledVideo>
           <YouTube
             SameSite="none"
             Secure
             videoId="EqYSThAxRdE"
             className="YouTubeEmbed"
           />
-        </StyledVideo>
+        </StyledVideo> */}
+      </section>
+      <section className="video-container">
+        <iframe
+          title="project presentation"
+          src="https://www.youtube.com/embed/EqYSThAxRdE"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </section>
     </main>
   );
