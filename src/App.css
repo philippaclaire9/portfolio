@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   background-color: peachpuff;
+  min-height: 600px;
+  font-family: 'Gayathri', sans-serif;
+  font-size: larger;
 }
 
 .navlinks {
@@ -19,6 +22,17 @@
   color: white;
 }
 
+.home {
+  height: 800px;
+}
+
+.philippa {
+  height: 140px;
+  width: 184px;
+  border-radius: 140px;
+  margin-top: 20px;
+}
+
 @media only screen and (max-width: 786px) {
   .nav {
     text-align: center;
@@ -29,6 +43,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: medium;
+    min-height: 400px;
   }
 }
 
