@@ -13,7 +13,7 @@ function App() {
       <StyledHeader>PCB Portfolio</StyledHeader>
 
       <NavBar />
-      <Router>
+      <Router primary={false}>
         <Home path="/" />
         <AboutMe path="about_me" />
         <Projects path="projects" />
